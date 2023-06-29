@@ -438,7 +438,6 @@ p {
   .personal-socials {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .social-links {
     width: 100%;
@@ -448,6 +447,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   }
   .social-links:hover,
   .social-links:focus {
@@ -478,9 +479,12 @@ p {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color: #8e8f99;
    }
-   .customers-link:hover {
+   .customers-link:hover,
+   .customers-link:focus {
     border-color: #404BBF;
+    color: #404bbf;
    }
    .customers-link:hover .customers-icon {
     fill: #404BBF;
@@ -493,4 +497,7 @@ p {
     margin-bottom: 72px;
     justify-content: center;
     align-items: center;
+   }
+   .customers-icon {
+    fill: currentColor;
    }
