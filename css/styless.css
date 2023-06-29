@@ -462,6 +462,9 @@ p {
     justify-content: center;
     gap: 24px;
    }
+   .section-customers {
+    padding: 120px 0;
+   }
 
    .customers-item {
 
@@ -481,4 +484,13 @@ p {
    }
    .customers-link:hover .customers-icon {
     fill: #404BBF;
+   }
+   .customers-header {
+    display: flex;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    justify-content: center;
+    align-items: center;
    }
